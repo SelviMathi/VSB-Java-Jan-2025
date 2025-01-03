@@ -1,0 +1,107 @@
+***********if Syntax*************
+if(condition)
+{
+}
+***********if-else Syntax*************
+if(condition)
+{
+}
+else
+{
+}
+***********ladder if else Syntax*************
+if(condition){
+}
+else if(condition){
+}
+else if(condition){
+}
+else{
+}
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int num1=obj.nextInt();
+        if(num1>0)//if()
+        System.out.println("Positive");
+        else if(num1==0)
+        System.out.println("Neither Positive Nor Negative");
+        else
+        System.out.println("Negative");
+    }
+}
+***********Nested if else Syntax*************
+if(condition){
+if(condtion){
+}
+else{
+}
+}
+else{
+}
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int num1=obj.nextInt();
+        if(num1>0)
+        {
+            if(num1%2==0)
+            System.out.println("Positive Even");
+            else
+            System.out.println("Positive Odd");
+        }
+        else
+        System.out.println("Negative");
+    }
+}
+
+3. PASS/FAIL
+Given a student's mark as input,print output as Pass/Fail based on the input  
+mark < 35 print Fail  
+mark>=35 print Pass
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int mark=obj.nextInt();
+        if(mark>=35)
+                System.out.println("PASS"); 
+        else
+                System.out.println("FAIL");
+}
+}
+
+4.Given 2 numbers, find the minimum of these 2 numbers
+Input Format:
+Accept two integer values as inputs.
+Output Format:
+Print the output as "Minimum of INPUT1 and INPUT2 is  ____".
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int input1=obj.nextInt();
+        int input2=obj.nextInt();
+        if(input1<input2)
+                System.out.println("Minimum of "+input1+" and "+input2+" is: " +input1); 
+        else
+         System.out.println("Minimum of "+input1+" and "+input2+" is: " +input2); 
+    }
+}
+
+5.Problem Statement:
+Given an integer value, check the given input is divisible by 3. If it is divisible print the message "The number is divisible by 3".if it is not divisible print the message "The number is not divisible by 3 and gives a remainder _".
+Input Format:
+Enter an integer as a input
+Output Format:
+Follow the format as sample output
+Sample Input 1:
+25
+Sample Output 1:
+The number is not divisible by 3 and gives a remainder 1
