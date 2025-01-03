@@ -90,3 +90,146 @@ public class Main
 	   System.out.println("My name is : "+msg);
 	}
 }
+
+
+9.With Quotation
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Success is when your \"signature\" becomes \"autograph\"");
+	}
+}
+
+10.Accept a character and print its corresponding ASCII value.
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner obj = new Scanner(System.in);
+	   char ch = obj.next().charAt(0);
+	   int num=(int)ch;
+	   System.out.println(num);
+	}
+}
+
+11.Accept a integer and print its corresponding character.
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner obj = new Scanner(System.in);
+	   int num = obj.nextInt();
+	   char ch=(char)num;
+	   System.out.println(num+":"+ch);
+	}
+}
+
+12.Accept a floating point value and print it with 20 width space and round off to 4 decimal places.
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double inputValue = scanner.nextDouble();
+        System.out.printf("%20.4f\n", inputValue);
+    }
+}
+
+
+13.Input Format:
+Accept one floating point  and one integer value
+Output Format:
+print the floating point value according to the given precision
+Sample Input :
+15.87 6
+Sample Output :
+15.870000
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double Value = scanner.nextDouble();
+        int precision = scanner.nextInt();
+        String formatString = "%." + precision + "f";
+        System.out.printf(formatString, Value);
+    }
+}
+
+
+14.Accept float input and display round off value
+I/p:15.9
+O/p:16
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double inputValue = scanner.nextDouble();
+        long input = Math.round(inputValue);
+        System.out.println(input);
+    }
+}
+
+15.String to char
+import java.util.Arrays;  
+  
+public class chartostring {  
+  
+    public static void main(String[] args) {  
+  
+        String str=“SelviMathi";  
+        char[] ch=str.toCharArray();  
+  
+        System.out.println("String: "+str);  
+        System.out.println("char: "+Arrays.toString(ch));  
+  
+    }  
+      
+}  
+
+16.Accept a float value as input and print the same in its exponential form
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        float input = scanner.nextFloat();
+        System.out.printf("%e", input);
+        
+    }
+
+17.Problem Statement:
+Given Kilometer as input , convert it into miles. (miles = km / 1.6)
+
+
+Input Format:
+Accept a floating point(double) value for kilometer
+
+
+Output Format:
+print the miles with respect to 2 decimal places (Example: 3.45 Miles)
+
+
+
+18.Problem Statement:
+Given the temperature in  Fahrenheit , convert it into Celsius using the formulae celsius = (fahrenheit - 32) * 5 / 9)
+
+
+Input Format:
+Accept a floating point(double) value for Fahrenheit
+
+
+Output Format:
+Print the Celsius vlaue with respect to two decimal places(Example : 3.45 Celsius)
+I/p:
+32.6
+O/p:
+0.33 Celsius
+
+19.Problem Statement:
+Given liter as input ,convert it into gallon(1Liter=0.26417gallon)
+I/p:100
+O/p:26.42
+
+20.Given Inches as input, Covert it  into feet (1 inche= 0.08333 foot)
+I/p:1
+O/p:0.08
