@@ -63,3 +63,19 @@ public class Main
 	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
 	}
 }
+
+//7/String input from user
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("----------------WELCOME----------------");
+		String name;
+		Scanner in=new Scanner(System.in);
+		System.out.println("String input from user...");
+		System.out.print("Enter Your name   : ");
+		name=in.nextLine();
+		System.out.println("Your name is "+name);
+	}
+}
