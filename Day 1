@@ -208,6 +208,18 @@ Accept a floating point(double) value for kilometer
 Output Format:
 print the miles with respect to 2 decimal places (Example: 3.45 Miles)
 
+//*****************Kilometer into Miles*************************//
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double km = in.nextDouble();
+		System.out.printf("%.2f",(km*0.62137119));
+	}
+}
+
 
 
 18.Problem Statement:
@@ -224,12 +236,48 @@ I/p:
 32.6
 O/p:
 0.33 Celsius
+//*****************Fahrenheit into Celsius*************************//
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double fahrenheit = in.nextDouble();
+		System.out.printf("%.2f",((fahrenheit-32)*5/9));
+	}
+}
+
 
 19.Problem Statement:
 Given liter as input ,convert it into gallon(1Liter=0.26417gallon)
 I/p:100
 O/p:26.42
 
+//*****************Litre into Gallon*************************//
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double litre = in.nextDouble();
+		System.out.printf("%.2f",((litre*0.26417)));
+	}
+}
+
 20.Given Inches as input, Covert it  into feet (1 inche= 0.08333 foot)
 I/p:1
 O/p:0.08
+
+//*****************Inches into Feet*************************//
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		double inches = in.nextDouble();
+		System.out.printf("%.2f",((inches*0.08333)));
+	}
+}
