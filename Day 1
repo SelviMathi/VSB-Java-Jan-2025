@@ -37,3 +37,18 @@ public class Main
 	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
 	}
 }
+//5.Float Addition from user input
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("----------------welcome----------------");
+		float n1,n2;
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter Two numbers");
+		n1=in.nextFloat();
+		n2=in.nextFloat();
+		System.out.println("Sum of "+n1+" and "+n2+" is "+(n1+n2));
+	}
+}
