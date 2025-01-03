@@ -24,3 +24,18 @@ public class Main
 		System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
 	}
 }
+//User input 2 numbers
+import java.util.Scanner;
+
+public class sk
+{
+	public static void main(String[] args) {
+		System.out.println("----------------welcome----------------");
+		int n1,n2;
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter Two numbers");
+		n1=in.nextInt();
+		n2=in.nextInt();
+		System.out.println("Sum of "+n1+" and "+n2+" is "+(n1+n2));
+	}
+}
