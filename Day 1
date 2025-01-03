@@ -25,7 +25,7 @@ public class Main
 	}
 }
 
-4.Getting user input and addition of two number
+4.Getting user input and addition of two integer number
 import java.util.Scanner;
 public class Main
 {
@@ -34,6 +34,32 @@ public class Main
 	   Scanner scanner = new Scanner(System.in);
 	   num1 = scanner.nextInt();
 	   num2 = scanner.nextInt();
+	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
+	}
+}
+
+5.Getting user input and addition of two float number
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   float num1,num2;
+	   Scanner obj = new Scanner(System.in);
+	   num1 = obj.nextFloat();
+	   num2 = obj.nextFloat();
+	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
+	}
+}
+
+6.Getting user input and addition of two Double number
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   double num1,num2;
+	   Scanner obj = new Scanner(System.in);
+	   num1 = obj.nextDouble();
+	   num2 = obj.nextDouble();
 	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
 	}
 }
