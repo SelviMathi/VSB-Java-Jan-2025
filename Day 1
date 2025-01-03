@@ -1,0 +1,26 @@
+1. First program
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+2.Declaring integer and display
+public class Main
+{
+	public static void main(String[] args) {
+	    int num=10;
+		System.out.println("My Age is: "+ num);
+	}
+}
+
+3.Declaring two num and add
+public class Main
+{
+	public static void main(String[] args) {
+	    int num1=10,num2=20;
+		System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
+	}
+}
