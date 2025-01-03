@@ -63,3 +63,30 @@ public class Main
 	   System.out.println("The sum of "+num1+" and "+num2+" is : "+(num1+num2));
 	}
 }
+
+7.Getting User name as input and display it
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   String name;
+	   Scanner obj = new Scanner(System.in);
+	   
+	   name = obj.next();
+	   System.out.println("My name is : "+name);
+	}
+}
+
+
+8.Getting User message as input and display it
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   String msg;
+	   Scanner obj = new Scanner(System.in);
+	   
+	   msg = obj.nextLine();
+	   System.out.println("My name is : "+msg);
+	}
+}
