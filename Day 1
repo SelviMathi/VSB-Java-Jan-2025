@@ -208,6 +208,18 @@ Accept a floating point(double) value for kilometer
 Output Format:
 print the miles with respect to 2 decimal places (Example: 3.45 Miles)
 
+//output//
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double input = scanner.nextDouble();
+        double miles = input / 1.6;
+        System.out.printf("%.2f",miles);
+        
+    }
+}
+
 
 
 18.Problem Statement:
